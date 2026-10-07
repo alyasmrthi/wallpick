@@ -1,0 +1,14 @@
+LICENSE
+README.md
+pyproject.toml
+wallpick/__init__.py
+wallpick/api.py
+wallpick/config.py
+wallpick/setter.py
+wallpick/ui.py
+wallpick.egg-info/PKG-INFO
+wallpick.egg-info/SOURCES.txt
+wallpick.egg-info/dependency_links.txt
+wallpick.egg-info/entry_points.txt
+wallpick.egg-info/requires.txt
+wallpick.egg-info/top_level.txt

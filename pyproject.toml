@@ -1,0 +1,26 @@
+[build-system]
+requires = ["setuptools>=64", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "wallpick"
+version = "1.0.0"
+description = "A Wallhaven browser and wallpaper setter for the desktop — GTK4 + libadwaita."
+readme = "README.md"
+license = {text = "MIT"}
+requires-python = ">=3.10"
+authors = [{name = "alyasmrthi"}]
+dependencies = [
+    "requests>=2.28",
+]
+
+[project.urls]
+Homepage = "https://github.com/alyasmrthi/wallpick"
+Repository = "https://github.com/alyasmrthi/wallpick"
+Issues = "https://github.com/alyasmrthi/wallpick/issues"
+
+[project.scripts]
+wallpick = "wallpick.ui:main"
+
+[tool.setuptools.packages.find]
+include = ["wallpick*"]

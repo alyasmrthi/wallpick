@@ -1,0 +1,2 @@
+[console_scripts]
+wallpick = wallpick.ui:main

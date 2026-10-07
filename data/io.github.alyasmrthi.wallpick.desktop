@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=Wallpick
+Comment=Browse and apply wallpapers from Wallhaven
+Exec=wallpick
+Icon=preferences-desktop-wallpaper
+Terminal=false
+Type=Application
+Categories=Graphics;
+Keywords=wallpaper;wallhaven;desktop;background;
+StartupNotify=true
+StartupWMClass=io.github.alyasmrthi.wallpick
